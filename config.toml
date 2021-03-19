@@ -1,4 +1,4 @@
-baseURL = "https://artemiscloud.github.io/website/"
+baseURL = "https://artemiscloud.github.io/"
 title = "Artemis Cloud"
 theme = "artemiscloudtheme"
 languageName = "En"
