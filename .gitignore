@@ -2,3 +2,4 @@ public
 **.iml
 resources/_gen/*
 build
+.idea
