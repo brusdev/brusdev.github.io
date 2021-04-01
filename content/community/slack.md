@@ -2,7 +2,7 @@
 title: "Join Our Chatroom"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "ArtemisCloud.io is a collection of container images that provide a way to deploy the Apache ActiveMQ Artemis Broker on Kubernetes."
 draft: false
 image: "images/chat.png"
 type: "social"
