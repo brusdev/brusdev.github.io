@@ -1,17 +1,13 @@
 <footer class="footer text-muted">
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
     <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
-        <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
-        </ul>
+      <div class="col">
+        <a href="https://www.redhat.com/">
+          <img height="32px" src="/images/Logo-Red_Hat-Sponsored_By-A-Standard-RGB.png" alt="Red Hat">
+        </a>
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
-        <ul class="list-inline">
-          {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-          {{ end -}}
-        </ul>
+      <div class="col-10">
+        <p style="font-size: 12px">Apache, Apache ActiveMQ Artemis,Artemis and associated open source project names are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.</p>
       </div>
     </div>
   </div>
